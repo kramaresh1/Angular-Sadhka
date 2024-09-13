@@ -1,0 +1,10 @@
+{
+  "env": {
+    "name": "Dev"
+  },
+
+  "apiServer": {
+    "link1": "http://localhost:8082/DMS",
+    "link2": "http://172.16.1.23:8082/issueTracking"
+  }
+}

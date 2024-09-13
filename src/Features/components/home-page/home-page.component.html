@@ -1,0 +1,43 @@
+<div class="home-container">
+    <!-- Header Section -->
+    <header class="header">
+      <h1>Sadhka</h1>
+    </header>
+  
+    <div class="welcome-popup" *ngIf="showWelcomePopup">
+        <div class="popup-content">
+          <h2>Welcome to Sadhka!</h2>
+          <p>
+            We're glad to have you here. Explore the platform and join us on a
+            journey of spiritual growth and self-improvement.
+          </p>
+          <button (click)="closePopup()">Close</button>
+        </div>
+      </div>
+
+
+    <!-- Description Section -->
+    <section class="description  ">
+      <p>
+        Discover the essence of spiritual growth and self-improvement with Sadhka.
+        Our platform connects like-minded individuals on a journey toward
+        enlightenment, providing valuable insights, resources, and a supportive
+        community to guide you every step of the way.
+      </p>
+    </section>
+  
+    <!-- Image Section   src="../../../../../../assets/images/businessma.avif" -->
+    <section class="image-section">
+      <img
+       src="../../../../assets/images/businessma.jpg"        
+        alt="Sadhka" 
+        class="main-image"
+      />
+    </section>
+  
+    <!-- Footer Section -->
+    <footer class="footer">
+      <p>&copy; 2024 Sadhka. All rights reserved.</p>
+    </footer>
+  </div>
+  
